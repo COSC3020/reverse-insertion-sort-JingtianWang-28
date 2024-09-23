@@ -36,3 +36,6 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+//////
+every element compare with sorted element,when insert i element, it will compare all i-1 element, it take O(n/2) each time, so for final result should be the worst-case theta (n^2)
